@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912749735808",
+    "project_id": "instagram-demo-665c5",
+    "storage_bucket": "instagram-demo-665c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912749735808:android:236b5f2d54c15a0a775b65",
+        "android_client_info": {
+          "package_name": "com.wonmirzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912749735808-jef8soh9omcnbo4o9t3qh5agmi1e1pem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-FEgfhebrhbWyb3M5vSKdkD9Pmd4dgXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912749735808-jef8soh9omcnbo4o9t3qh5agmi1e1pem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
