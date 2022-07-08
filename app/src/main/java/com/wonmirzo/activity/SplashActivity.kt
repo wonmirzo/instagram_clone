@@ -12,6 +12,7 @@ import com.wonmirzo.R
 import com.wonmirzo.manager.AuthManager
 import com.wonmirzo.manager.PrefsManager
 import com.wonmirzo.utils.Logger
+import java.lang.RuntimeException
 
 /*
 * In SplashActivity user can visit to SignInActivity or MainActivity
@@ -28,6 +29,7 @@ class SplashActivity : BaseActivity() {
         )
         setContentView(R.layout.activity_splash)
         initViews()
+        throw RuntimeException("Test Crash") // Force a crash
     }
 
     private fun initViews() {
@@ -61,7 +63,7 @@ class SplashActivity : BaseActivity() {
             // Save it in locally to user late
             val token = task.result
             Logger.d(TAG, token.toString())
-             PrefsManager(this).storeDeviceToken(token.toString())
+            PrefsManager(this).storeDeviceToken(token.toString())
         }
     }
 }
